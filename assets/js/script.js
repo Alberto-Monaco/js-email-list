@@ -17,8 +17,6 @@ for (let i = 0; i < 10; i++) {
 			const liEl = document.createElement('li')
 			liEl.textContent = element
 			ulEl.appendChild(liEl)
-			console.log(liEl)
-			console.log(ulEl)
 		})
 }
 console.log(EmailList)
